@@ -21,7 +21,6 @@ Grocery consumption is the basic human need and in this time of pandemic, people
 “As a customer, once I have placed my orders an email will be sent out to me as a confirmation” 
 
 ## Acceptance Criteria
-
 GIVEN an online grocery application
 WHEN I am prompted to Register
 THEN a Registration page is available for me where I will input my Name, Username, Address, Phone and Email address.
