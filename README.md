@@ -14,7 +14,7 @@ Grocery consumption is the basic human need and in this time of pandemic, people
 
 ## User Story
 
-“As a customer, I want to search for products, so that I can find the ones I want to buy.”
+“As a customer, I want to filter for products, so that I can find the ones I want to buy.”
 
 “As a customer, I want to authenticate myself so that I can see my account details and place orders.”
 
