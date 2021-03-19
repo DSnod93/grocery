@@ -1,6 +1,6 @@
-##Project Overview 
+# grocery
 
-UCB Bootcamp | Team #8  | Grocery App - Modernizing Grocery Delivery 
+### 
 
 Grocery consumption is the basic human need and in this time of pandemic, people are increasingly relying on online grocery shopping. Our goal is to be able to build a customer friendly grocery delivery application by applying all our learnings from UCB bootcamp. 
 
