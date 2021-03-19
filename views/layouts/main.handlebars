@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{!-- Materialize Links  --}}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    {{!-- End Materialze Links --}}
+
+    <title>Grocery Delivery App</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Start Nav -->
+        <nav>
+            <div class="nav-wrapper lime darken-2">
+              <a href="/" class="brand-logo">Grocery Delivery</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="/">Home</a></li>
+                <li><a href="">Cart</a></li>
+                <li>
+                    {{#if loggedIn}}
+                        <button id="logout" class="waves-effect waves-red lighten-2 btn-flat">Logout</button>
+                    {{else}}
+                         <a href="/login">Login</a>
+                    {{/if}}
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+            {{!-- Start Hamburger Menu --}}
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="/">Home</a></li>
+                <li><a href="">Cart</a></li>
+                <li>
+                    {{#if loggedIn}}
+                        <button id="logout" class="waves-effect waves-red lighten-2 btn-flat">Logout</button>
+                    {{else}}
+                            <a href="/login">Login</a>
+                    {{/if}}
+                </li>
+            </ul>
+            {{!-- End Hamburger Menu --}}
+
+        <!-- End Nav -->
+
+        {{!-- Start Main Content --}}
+        <main>
+        {{{ body }}}
+        </main>
+        {{!-- End Main Content --}}
+
+        {{!-- Start Footer --}}
+        <footer class="center-align">
+            &#169; 2021 Grocery Delivery App
+        </footer>
+        {{!-- End Footer --}}
+
+    </div>
+
+    {{!-- Scripts --}}
+    <script src=""></script>
+    {{!-- Materialize Script --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
