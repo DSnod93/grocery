@@ -35,6 +35,11 @@ Item.init(
         type: DataTypes.STRING,
         allowNull: false
       }
+    ,
+    category: {
+        type: DataTypes.STRING,
+        allowNull: false
+      }
     },
     {
       sequelize,
