@@ -48,7 +48,7 @@ THEN I will have an option to “Log Out” from the application
 
 ## Contact
 Group project members:
-1. Ben Tan | 
+1. Ben Tan | bctan87@gmail.com
 2. Samuel Saldivar | SamuelSaldivar11@gmail.com
 3. Douglas Snoddy Jr | douglassnoddyjr@gmail.com
 4. Cherrie Awang | caflores31@gmail.com
