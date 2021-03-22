@@ -1,0 +1,32 @@
+<ul class="collection">
+  {{#each items as |item|}}
+  <li class="collection-item">
+    {{> item-info item }}
+  </li>
+  {{/each}}
+</ul>
+
+{{!-- <div class="row">
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image"> --}}
+                {{!-- "/assets/images/img{{post.img}}.jpg" --}}
+                {{!-- <img src="">
+                <span class="card-title lime darken-1">{{item.name}}/span>
+            </div>
+        <div class="card-content">
+            <p>{{item.price}}</p>
+            <p>{{item.content}}</p>
+        </div>
+            <div class="card-action">
+                <li>
+                    {{#if loggedIn}}
+                        <button id="logout" class="waves-effect waves-red lighten-2 btn-flat">ADD TO CART</button>
+                    {{else}}
+                            <a href="/">Login to add</a>
+                    {{/if}}
+                </li>
+            </div>
+        </div>
+    </div>           
+</div> --}}
