@@ -10,7 +10,7 @@ Grocery consumption is the basic human need and in this time of pandemic, people
 
 ## Project UX Flowchart
 
-![Alt text](/asset/grocery app ux?raw=true “Online Grocery Business Model)
+![Alt text](/asset/grocery_ux.jpg?raw=true “Online Grocery Business Model)
 
 ## User Story
 
@@ -33,7 +33,7 @@ THEN I will see a confirmation page and receipt, an email will be sent out to my
 WHEN I have completed my online grocery shopping
 THEN I will have an option to “Log Out” from the application
 
-##Built With 
+## Built With 
 
 ## Prerequisites
 
