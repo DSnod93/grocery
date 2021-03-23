@@ -10,7 +10,7 @@ Grocery consumption is the basic human need and in this time of pandemic, people
 
 ## Project UX Flowchart
 
-![Alt text](/asset/grocery_ux.jpg?raw=true “Online Grocery Business Model)
+![Alt text](/public/images/grocery.jpg?raw=true "Grocery Business Model")
 
 ## User Story
 
