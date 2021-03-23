@@ -1,7 +1,7 @@
 // EXPRESS.JS CONNECTION
 const router = require('express').Router();
 // USER MODEL
-const { User } = require('../../models'); 
+const { User, Item } = require('../../models'); 
 
 // GET /api/users
 router.get('/', (req, res) => {
