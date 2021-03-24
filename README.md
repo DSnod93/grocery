@@ -42,7 +42,7 @@ THEN I will have an option to “Log Out” from the application
 ## Links to Deployed Application
 
 1. Github repository —> https://github.com/DSnod93/grocery
-2. Github/Heroku Page —> 
+2. Github/Heroku Page —> https://glacial-bastion-86461.herokuapp.com
 
 ## License
 
