@@ -18,3 +18,4 @@ async function deleteItem(event){
       }
     
 }
+document.querySelector('.delete-post-btn').addEventListener('click', deleteItem);
